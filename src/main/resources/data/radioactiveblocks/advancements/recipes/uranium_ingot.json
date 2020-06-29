@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:uranium_block",
+      "radioactiveblocks:uranium_ingot_from_block",
+      "radioactiveblocks:uranium_ingot_from_nugget",
+      "radioactiveblocks:uranium_nugget",
+      "radioactiveblocks:recipe_uranium_sword",
+      "radioactiveblocks:recipe_uranium_pickaxe",
+      "radioactiveblocks:recipe_uranium_axe",
+      "radioactiveblocks:recipe_uranium_shovel",
+      "radioactiveblocks:recipe_uranium_hoe",
+      "radioactiveblocks:uranium_helmet",
+      "radioactiveblocks:uranium_chestplate",
+      "radioactiveblocks:uranium_leggings",
+      "radioactiveblocks:uranium_boots"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "radioactiveblocks:uranium_ingot" }]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

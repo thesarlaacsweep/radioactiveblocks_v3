@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": { "item": "radioactiveblocks:protactinium_dust" },
+  "result": { "item": "radioactiveblocks:protactinium_ingot" },
+  "experience": 1.8,
+  "cookingtime": 60
+}

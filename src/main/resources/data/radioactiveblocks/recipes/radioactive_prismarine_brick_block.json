@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["RRR", "RIR", "BBB"],
+  "key": {
+    "I": { "tag": "radioactiveblocks:ingots" },
+    "B": {
+      "item": "minecraft:prismarine_bricks"
+    },
+    "R": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_prismarine_brick_block",
+    "count": 12
+  }
+}

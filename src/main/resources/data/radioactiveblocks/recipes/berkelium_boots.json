@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "radioactive_boots",
+  "pattern": ["I I", "I I"],
+  "key": {
+    "I": {
+      "item": "radioactiveblocks:berkelium_ingot"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:berkelium_boots",
+    "count": 1
+  }
+}

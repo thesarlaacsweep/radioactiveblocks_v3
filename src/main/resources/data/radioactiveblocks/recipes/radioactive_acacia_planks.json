@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "radioactive_planks",
+  "ingredients": [
+    {
+      "item": "radioactiveblocks:radioactive_acacia_log"
+    }
+  ],
+  "result": {
+    "item": "radioactiveblocks:radioactive_acacia_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "radioactive_bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "radioactiveblocks:radioactive_acacia_log"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_acacia_wood",
+    "count": 4
+  }
+}

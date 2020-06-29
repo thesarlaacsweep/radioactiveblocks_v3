@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["SS", "SS"],
+  "key": {
+    "S": {
+      "item": "radioactiveblocks:radioactive_granite_block"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_polished_granite_block",
+    "count": 4
+  }
+}

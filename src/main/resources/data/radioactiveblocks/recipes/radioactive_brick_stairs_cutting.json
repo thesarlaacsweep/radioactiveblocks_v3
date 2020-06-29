@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "radioactiveblocks:radioactive_brick_block"
+  },
+  "result": "radioactiveblocks:radioactive_brick_stairs",
+  "count": 1
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+      "title": {
+          "text": "This Little Ore of Mine, I'm Gonna Let it Shine!",
+          "bold": true
+      },
+      "description": {
+          "text": "Player has acquired a radioactive ore..."
+      },
+      "icon": {
+          "item": "radioactiveblocks:uranium_ore"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+      "hasOre": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+              "items": [
+                  {
+                      "tag": "radioactiveblocks:ores"
+                  }
+              ]
+          }
+      }
+  },
+  "requirements": [
+      [
+          "hasOre"
+      ]
+  ],
+  "rewards": {
+      "experience": 30
+  }
+}

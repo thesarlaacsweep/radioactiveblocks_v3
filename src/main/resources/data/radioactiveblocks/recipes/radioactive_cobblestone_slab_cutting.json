@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "radioactiveblocks:radioactive_cobblestone_block"
+  },
+  "result": "radioactiveblocks:radioactive_cobblestone_slab",
+  "count": 2
+}

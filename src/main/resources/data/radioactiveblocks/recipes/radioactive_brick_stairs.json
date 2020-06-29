@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["B  ", "BB ", "BBB"],
+  "key": {
+    "B": {
+      "item": "radioactiveblocks:radioactive_brick_block"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_brick_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "radium",
+  "ingredients": [
+    {
+      "item": "radioactiveblocks:radium_block"
+    }
+  ],
+  "result": {
+    "item": "radioactiveblocks:radium_ingot",
+    "count": 9
+  }
+}

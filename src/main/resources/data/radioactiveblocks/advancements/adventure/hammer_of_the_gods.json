@@ -1,0 +1,46 @@
+{
+  "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "title": {
+      "text": "Hammer of the Gods!",
+      "bold": true
+    },
+    "description": {
+      "text": "Player used the ore maul to destroy anything in its path..."
+    },
+    "icon": {
+      "item": "radioactiveblocks:ore_maul"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "hasMaul": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "source_entity": {
+            "type": "minecraft:player",
+            "equipment": {
+              "mainhand": {
+                "item": "radioactiveblocks:ore_maul"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hasMaul"
+    ]
+  ],
+  "rewards": {
+    "experience": 16
+  }
+}

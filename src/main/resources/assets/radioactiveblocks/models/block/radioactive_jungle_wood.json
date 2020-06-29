@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+      "end": "radioactiveblocks:blocks/jungle_log",
+      "side": "radioactiveblocks:blocks/jungle_log"
+  }
+}

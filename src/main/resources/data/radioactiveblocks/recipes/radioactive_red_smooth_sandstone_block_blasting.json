@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": { "item": "radioactiveblocks:radioactive_red_sandstone_block" },
+  "result": { "item": "radioactiveblocks:radioactive_red_smooth_sandstone_block" },
+  "experience": 0.8,
+  "cookingtime": 60
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": { "item": "radioactiveblocks:radioactive_white_terracotta" },
+  "result": { "item": "radioactiveblocks:radioactive_white_glazed_terracotta" },
+  "experience": 0.8,
+  "cookingtime": 60
+}

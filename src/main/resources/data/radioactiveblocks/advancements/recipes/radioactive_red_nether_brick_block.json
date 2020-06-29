@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["radioactiveblocks:radioactive_red_nether_brick_block"]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "minecraft:red_nether_bricks" },
+          { "item": "minecraft:gravel" }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

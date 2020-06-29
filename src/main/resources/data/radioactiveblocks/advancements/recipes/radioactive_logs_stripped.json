@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:radioactive_stripped_acacia_log",
+      "radioactiveblocks:radioactive_stripped_birch_log",
+      "radioactiveblocks:radioactive_stripped_dark_oak_log",
+      "radioactiveblocks:radioactive_stripped_jungle_log",
+      "radioactiveblocks:radioactive_stripped_oak_log",
+      "radioactiveblocks:radioactive_stripped_spruce_log"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "minecraft:gravel" }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:radioactive_white_terracotta",
+      "radioactiveblocks:radioactive_orange_terracotta",
+      "radioactiveblocks:radioactive_magenta_terracotta",
+      "radioactiveblocks:radioactive_light_blue_terracotta",
+      "radioactiveblocks:radioactive_yellow_terracotta",
+      "radioactiveblocks:radioactive_lime_terracotta",
+      "radioactiveblocks:radioactive_pink_terracotta",
+      "radioactiveblocks:radioactive_gray_terracotta",
+      "radioactiveblocks:radioactive_light_gray_terracotta",
+      "radioactiveblocks:radioactive_cyan_terracotta",
+      "radioactiveblocks:radioactive_purple_terracotta",
+      "radioactiveblocks:radioactive_blue_terracotta",
+      "radioactiveblocks:radioactive_brown_terracotta",
+      "radioactiveblocks:radioactive_green_terracotta",
+      "radioactiveblocks:radioactive_red_terracotta",
+      "radioactiveblocks:radioactive_black_terracotta"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "radioactiveblocks:radioactive_terracotta" }]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

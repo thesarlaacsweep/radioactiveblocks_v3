@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": { "item": "radioactiveblocks:radioactive_stone_block" },
+  "result": { "item": "radioactiveblocks:radioactive_smooth_stone" },
+  "experience": 1.2,
+  "cookingtime": 120
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+      "bottom": "radioactiveblocks:blocks/birch_planks",
+      "top": "radioactiveblocks:blocks/birch_planks",
+      "side": "radioactiveblocks:blocks/birch_planks"
+  }
+}

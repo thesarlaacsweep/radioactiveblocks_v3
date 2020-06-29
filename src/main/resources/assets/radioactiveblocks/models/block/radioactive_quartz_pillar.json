@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+      "end": "radioactiveblocks:blocks/quartz_pillar_top",
+      "side": "radioactiveblocks:blocks/quartz_pillar"
+  }
+}

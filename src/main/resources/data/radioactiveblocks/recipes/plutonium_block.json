@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["III", "III", "III"],
+  "key": {
+    "I": {
+      "item": "radioactiveblocks:plutonium_ingot"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:plutonium_block",
+    "count": 1
+  }
+}

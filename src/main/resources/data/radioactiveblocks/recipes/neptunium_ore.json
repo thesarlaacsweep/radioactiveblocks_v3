@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": { "item": "radioactiveblocks:neptunium_ore" },
+  "result": { "item": "radioactiveblocks:neptunium_ingot" },
+  "experience": 1.2,
+  "cookingtime": 120
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": { "item": "radioactiveblocks:radioactive_lime_terracotta" },
+  "result": { "item": "radioactiveblocks:radioactive_lime_glazed_terracotta" },
+  "experience": 1.2,
+  "cookingtime": 120
+}

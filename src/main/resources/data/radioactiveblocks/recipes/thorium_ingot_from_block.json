@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "thorium",
+  "ingredients": [
+    {
+      "item": "radioactiveblocks:thorium_block"
+    }
+  ],
+  "result": {
+    "item": "radioactiveblocks:thorium_ingot",
+    "count": 9
+  }
+}

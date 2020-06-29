@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "radioactiveblocks:radioactive_cobblestone_block"
+  },
+  "result": "radioactiveblocks:radioactive_stone_block",
+  "experience": 0.3,
+  "cookingtime": 60
+}

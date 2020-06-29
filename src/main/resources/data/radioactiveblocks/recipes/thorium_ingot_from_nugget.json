@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["NNN", "NNN", "NNN"],
+  "key": {
+    "N": {
+      "item": "radioactiveblocks:thorium_nugget"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:thorium_ingot",
+    "count": 1
+  }
+}

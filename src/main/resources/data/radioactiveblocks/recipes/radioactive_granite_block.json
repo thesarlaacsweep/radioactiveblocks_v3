@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["RRR", "RIR", "SSS"],
+  "key": {
+    "I": { "tag": "radioactiveblocks:ingots" },
+    "S": {
+      "item": "minecraft:granite"
+    },
+    "R": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_brick_block",
+    "count": 12
+  }
+}

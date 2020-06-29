@@ -1,0 +1,7 @@
+{
+  "variants": {
+      "axis=y": { "model": "radioactiveblocks:block/radioactive_stripped_spruce_wood" },
+      "axis=z": { "model": "radioactiveblocks:block/radioactive_stripped_spruce_wood", "x": 90 },
+      "axis=x": { "model": "radioactiveblocks:block/radioactive_stripped_spruce_wood", "x": 90, "y": 90 }
+  }
+}

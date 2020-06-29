@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:radioactive_jungle_planks"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "radioactiveblocks:radioactive_jungle_log" }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

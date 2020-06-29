@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["RRR", "RIR", "SSS"],
+  "key": {
+    "I": { "tag": "radioactiveblocks:ingots" },
+    "S": {
+      "item": "minecraft:andesite"
+    },
+    "R": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_andesite_block",
+    "count": 12
+  }
+}

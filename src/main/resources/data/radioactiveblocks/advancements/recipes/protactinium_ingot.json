@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:protactinium_block",
+      "radioactiveblocks:protactinium_ingot_from_block",
+      "radioactiveblocks:protactinium_ingot_from_nugget",
+      "radioactiveblocks:protactinium_nugget",
+      "radioactiveblocks:recipe_protactinium_sword",
+      "radioactiveblocks:recipe_protactinium_pickaxe",
+      "radioactiveblocks:recipe_protactinium_axe",
+      "radioactiveblocks:recipe_protactinium_shovel",
+      "radioactiveblocks:recipe_protactinium_hoe",
+      "radioactiveblocks:protactinium_helmet",
+      "radioactiveblocks:protactinium_chestplate",
+      "radioactiveblocks:protactinium_leggings",
+      "radioactiveblocks:protactinium_boots"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "radioactiveblocks:protactinium_ingot" }]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

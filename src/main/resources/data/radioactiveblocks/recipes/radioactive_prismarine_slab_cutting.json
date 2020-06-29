@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "radioactiveblocks:radioactive_prismarine_block"
+  },
+  "result": "radioactiveblocks:radioactive_prismarine_slab",
+  "count": 2
+}

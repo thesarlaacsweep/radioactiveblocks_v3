@@ -1,0 +1,30 @@
+{
+  "parent": "radioactiveblocks:story/radioactive_ore",
+  "display": {
+    "icon": {
+      "item": "radioactiveblocks:ore_maul"
+    },
+    "title": {
+      "translate": "advancements.story.radioactive_ore_maul.title"
+    },
+    "description": {
+      "translate": "advancements.story.radioactive_ore_maul.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "radioactive_ore_maul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "radioactiveblocks:ore_maul"
+          }
+        ]
+      }
+    }
+  }
+}

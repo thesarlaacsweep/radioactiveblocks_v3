@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:radioactive_red_sandstone_slab",
+      "radioactiveblocks:radioactive_red_sandstone_stairs"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "radioactiveblocks:radioactive_red_sandstone_block" }]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

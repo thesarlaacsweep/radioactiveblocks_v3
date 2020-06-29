@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "berkelium",
+  "ingredients": [
+    {
+      "item": "radioactiveblocks:berkelium_block"
+    }
+  ],
+  "result": {
+    "item": "radioactiveblocks:berkelium_ingot",
+    "count": 9
+  }
+}

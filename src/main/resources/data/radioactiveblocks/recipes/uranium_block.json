@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "UUU",
+      "UUU",
+      "UUU"
+  ],
+  "key": {
+      "U": {
+          "item": "radioactiveblocks:uranium_ingot"
+      }
+  },
+  "result": {
+      "item": "radioactiveblocks:uranium_block",
+      "count": 1
+  }
+}

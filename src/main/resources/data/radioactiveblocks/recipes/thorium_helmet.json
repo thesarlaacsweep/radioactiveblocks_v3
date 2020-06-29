@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "radioactive_helmet",
+  "pattern": ["III", "I I"],
+  "key": {
+    "I": {
+      "item": "radioactiveblocks:thorium_ingot"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:thorium_helmet",
+    "count": 1
+  }
+}

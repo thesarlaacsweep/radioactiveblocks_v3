@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "protactinium",
+  "ingredients": [
+    {
+      "item": "radioactiveblocks:protactinium_block"
+    }
+  ],
+  "result": {
+    "item": "radioactiveblocks:protactinium_ingot",
+    "count": 9
+  }
+}

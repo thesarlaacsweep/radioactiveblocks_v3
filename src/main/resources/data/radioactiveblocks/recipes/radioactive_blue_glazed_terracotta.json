@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": { "item": "radioactiveblocks:radioactive_blue_terracotta" },
+  "result": { "item": "radioactiveblocks:radioactive_blue_glazed_terracotta" },
+  "experience": 1.2,
+  "cookingtime": 120
+}

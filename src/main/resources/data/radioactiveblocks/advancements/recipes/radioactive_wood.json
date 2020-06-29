@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:radioactive_acacia_wood",
+      "radioactiveblocks:radioactive_birch_wood",
+      "radioactiveblocks:radioactive_dark_oak_wood",
+      "radioactiveblocks:radioactive_jungle_wood",
+      "radioactiveblocks:radioactive_oak_wood",
+      "radioactiveblocks:radioactive_spruce_wood"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "minecraft:gravel" }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

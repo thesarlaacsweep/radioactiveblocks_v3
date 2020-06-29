@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["S", "S"],
+  "key": {
+    "S": {
+      "item": "radioactiveblocks:radioactive_purpur_slab"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_purpur_pillar",
+    "count": 1
+  }
+}

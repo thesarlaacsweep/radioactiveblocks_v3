@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "americium_ingot",
+  "ingredients": [
+    {
+      "item": "radioactiveblocks:americium_block"
+    }
+  ],
+  "result": {
+    "item": "radioactiveblocks:americium_ingot",
+    "count": 9
+  }
+}

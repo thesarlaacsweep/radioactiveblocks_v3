@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:radioactive_prismarine_slab",
+      "radioactiveblocks:radioactive_prismarine_stairs"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "radioactiveblocks:radioactive_prismarine_block" }]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

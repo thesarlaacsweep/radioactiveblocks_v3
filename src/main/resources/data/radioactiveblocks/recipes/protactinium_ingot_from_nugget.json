@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "protactinium",
+  "pattern": ["NNN", "NNN", "NNN"],
+  "key": {
+    "N": {
+      "item": "radioactiveblocks:protactinium_nugget"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:protactinium_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "radioactiveblocks:americium_sword",
+    "radioactiveblocks:berkelium_sword",
+    "radioactiveblocks:neptunium_sword",
+    "radioactiveblocks:plutonium_sword",
+    "radioactiveblocks:protactinium_sword",
+    "radioactiveblocks:radium_sword",
+    "radioactiveblocks:technetium_sword",
+    "radioactiveblocks:thorium_sword",
+    "radioactiveblocks:uranium_sword"
+  ]
+}

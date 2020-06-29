@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:neptunium_block",
+      "radioactiveblocks:neptunium_ingot_from_block",
+      "radioactiveblocks:neptunium_ingot_from_nugget",
+      "radioactiveblocks:neptunium_nugget",
+      "radioactiveblocks:recipe_neptunium_sword",
+      "radioactiveblocks:recipe_neptunium_pickaxe",
+      "radioactiveblocks:recipe_neptunium_axe",
+      "radioactiveblocks:recipe_neptunium_shovel",
+      "radioactiveblocks:recipe_neptunium_hoe",
+      "radioactiveblocks:neptunium_helmet",
+      "radioactiveblocks:neptunium_chestplate",
+      "radioactiveblocks:neptunium_leggings",
+      "radioactiveblocks:neptunium_boots"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "radioactiveblocks:neptunium_ingot" }]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

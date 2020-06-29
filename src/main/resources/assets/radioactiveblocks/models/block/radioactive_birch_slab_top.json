@@ -1,0 +1,48 @@
+{
+  "textures": {
+    "particle": "radioactiveblocks:blocks/birch_planks",
+    "down": "radioactiveblocks:blocks/birch_planks",
+    "up": "radioactiveblocks:blocks/birch_planks",
+    "north": "radioactiveblocks:blocks/birch_planks",
+    "east": "radioactiveblocks:blocks/birch_planks",
+    "south": "radioactiveblocks:blocks/birch_planks",
+    "west": "radioactiveblocks:blocks/birch_planks"
+  },
+  "elements": [
+    {
+      "from": [0, 8, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#down",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#up"
+        },
+        "north": {
+          "uv": [0, 0, 16, 8],
+          "texture": "#north",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [0, 0, 16, 8],
+          "texture": "#south",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [0, 0, 16, 8],
+          "texture": "#west",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [0, 0, 16, 8],
+          "texture": "#east",
+          "cullface": "east"
+        }
+      }
+    }
+  ]
+}

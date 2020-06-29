@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "uranium",
+  "ingredients": [
+    {
+      "item": "radioactiveblocks:uranium_block"
+    }
+  ],
+  "result": {
+    "item": "radioactiveblocks:uranium_ingot",
+    "count": 9
+  }
+}

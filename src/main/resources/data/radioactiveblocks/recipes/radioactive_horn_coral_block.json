@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "radioactive_terracotta",
+  "pattern": ["TTT", "TDT", "TTT"],
+  "key": {
+    "D": {
+      "item": "minecraft:yellow_dye"
+
+    },
+    "T": {
+      "item": "radioactiveblocks:radioactive_dead_horn_coral_block"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_horn_coral_block",
+    "count": 8
+  }
+}

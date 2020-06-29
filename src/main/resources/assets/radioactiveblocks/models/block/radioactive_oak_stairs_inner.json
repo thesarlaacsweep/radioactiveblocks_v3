@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+      "bottom": "radioactiveblocks:blocks/oak_planks",
+      "top": "radioactiveblocks:blocks/oak_planks",
+      "side": "radioactiveblocks:blocks/oak_planks"
+  }
+}

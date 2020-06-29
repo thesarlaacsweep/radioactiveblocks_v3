@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:plutonium_block",
+      "radioactiveblocks:plutonium_ingot_from_block",
+      "radioactiveblocks:plutonium_ingot_from_nugget",
+      "radioactiveblocks:plutonium_nugget",
+      "radioactiveblocks:recipe_plutonium_sword",
+      "radioactiveblocks:recipe_plutonium_pickaxe",
+      "radioactiveblocks:recipe_plutonium_axe",
+      "radioactiveblocks:recipe_plutonium_shovel",
+      "radioactiveblocks:recipe_plutonium_hoe",
+      "radioactiveblocks:plutonium_helmet",
+      "radioactiveblocks:plutonium_chestplate",
+      "radioactiveblocks:plutonium_leggings",
+      "radioactiveblocks:plutonium_boots"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "radioactiveblocks:plutonium_ingot" }]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

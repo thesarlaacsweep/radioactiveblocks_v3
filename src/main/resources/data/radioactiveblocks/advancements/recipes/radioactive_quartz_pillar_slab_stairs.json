@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:radioactive_quartz_pillar",
+      "radioactiveblocks:radioactive_quartz_slab",
+      "radioactiveblocks:radioactive_quartz_stairs"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "radioactiveblocks:radioactive_quartz_block" }]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

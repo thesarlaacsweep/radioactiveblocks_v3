@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["III", "III", "III"],
+  "key": {
+    "I": {
+      "item": "radioactiveblocks:technetium_ingot"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:technetium_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "radioactiveblocks:radioactive_cut_sandstone_block"
+  },
+  "result": "radioactiveblocks:radioactive_cut_sandstone_slab",
+  "count": 2
+}

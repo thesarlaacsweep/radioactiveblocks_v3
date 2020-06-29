@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "radioactiveblocks:radioactive_diorite_block"
+  },
+  "result": "radioactiveblocks:radioactive_polished_diorite_slab",
+  "count": 2
+}

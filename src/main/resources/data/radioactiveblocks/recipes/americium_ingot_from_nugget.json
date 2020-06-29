@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "americium_ingot",
+  "pattern": ["NNN", "NNN", "NNN"],
+  "key": {
+    "N": {
+      "item": "radioactiveblocks:americium_nugget"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:americium_ingot",
+    "count": 1
+  }
+}

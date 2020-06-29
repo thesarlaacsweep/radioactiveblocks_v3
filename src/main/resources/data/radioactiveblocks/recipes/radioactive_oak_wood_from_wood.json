@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "radioactive_bark",
+  "pattern": ["RRR", "RIR", "LLL"],
+  "key": {
+    "I": { "tag": "radioactiveblocks:ingots" },
+    "L": {
+      "item": "minecraft:oak_wood"
+    },
+    "R": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_oak_wood",
+    "count": 8
+  }
+}

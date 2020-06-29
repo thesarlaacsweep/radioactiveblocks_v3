@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+      "bottom": "radioactiveblocks:blocks/dark_prismarine",
+      "top": "radioactiveblocks:blocks/dark_prismarine",
+      "side": "radioactiveblocks:blocks/dark_prismarine"
+  }
+}

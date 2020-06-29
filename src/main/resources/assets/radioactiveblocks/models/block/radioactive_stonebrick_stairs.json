@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+      "bottom": "radioactiveblocks:blocks/stone_bricks",
+      "top": "radioactiveblocks:blocks/stone_bricks",
+      "side": "radioactiveblocks:blocks/stone_bricks"
+  }
+}

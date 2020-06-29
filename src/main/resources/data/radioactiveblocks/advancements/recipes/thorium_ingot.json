@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:thorium_block",
+      "radioactiveblocks:thorium_ingot_from_block",
+      "radioactiveblocks:thorium_ingot_from_nugget",
+      "radioactiveblocks:thorium_nugget",
+      "radioactiveblocks:recipe_thorium_sword",
+      "radioactiveblocks:recipe_thorium_pickaxe",
+      "radioactiveblocks:recipe_thorium_axe",
+      "radioactiveblocks:recipe_thorium_shovel",
+      "radioactiveblocks:recipe_thorium_hoe",
+      "radioactiveblocks:thorium_helmet",
+      "radioactiveblocks:thorium_chestplate",
+      "radioactiveblocks:thorium_leggings",
+      "radioactiveblocks:thorium_boots"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "radioactiveblocks:thorium_ingot" }]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

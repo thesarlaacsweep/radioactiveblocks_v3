@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+      "layer0": "radioactiveblocks:items/neptunium_leggings"
+  }
+}

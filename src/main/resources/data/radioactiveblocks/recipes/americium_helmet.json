@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "radioactive_helmet",
+  "pattern": ["III", "I I"],
+  "key": {
+    "I": {
+      "item": "radioactiveblocks:americium_ingot"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:americium_helmet",
+    "count": 1
+  }
+}

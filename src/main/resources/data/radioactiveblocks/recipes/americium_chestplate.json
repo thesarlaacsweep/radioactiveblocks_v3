@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "radioactive_chestplate",
+  "pattern": ["I I", "III", "III"],
+  "key": {
+    "I": {
+      "item": "radioactiveblocks:americium_ingot"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:americium_chestplate",
+    "count": 1
+  }
+}

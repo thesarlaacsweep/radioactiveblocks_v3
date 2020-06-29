@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+      "bottom": "radioactiveblocks:blocks/acacia_planks",
+      "top": "radioactiveblocks:blocks/acacia_planks",
+      "side": "radioactiveblocks:blocks/acacia_planks"
+  }
+}

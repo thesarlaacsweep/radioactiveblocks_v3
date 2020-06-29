@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["radioactiveblocks:radioactive_dark_prismarine_block"]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "minecraft:dark_prismarine" },
+          { "item": "minecraft:gravel" }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

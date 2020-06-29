@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:berkelium_block",
+      "radioactiveblocks:berkelium_ingot_from_block",
+      "radioactiveblocks:berkelium_ingot_from_nugget",
+      "radioactiveblocks:berkelium_nugget",
+      "radioactiveblocks:recipe_berkelium_sword",
+      "radioactiveblocks:recipe_berkelium_pickaxe",
+      "radioactiveblocks:recipe_berkelium_axe",
+      "radioactiveblocks:recipe_berkelium_shovel",
+      "radioactiveblocks:recipe_berkelium_hoe",
+      "radioactiveblocks:berkelium_helmet",
+      "radioactiveblocks:berkelium_chestplate",
+      "radioactiveblocks:berkelium_leggings",
+      "radioactiveblocks:berkelium_boots"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "radioactiveblocks:berkelium_ingot" }]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

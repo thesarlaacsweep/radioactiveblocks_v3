@@ -1,0 +1,5 @@
+{
+  "variants": {
+      "": { "model": "radioactiveblocks:block/radioactive_dead_fire_coral_block" }
+  }
+}

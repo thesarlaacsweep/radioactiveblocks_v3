@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["NNN", "NNN", "NNN"],
+  "key": {
+    "N": {
+      "item": "radioactiveblocks:radium_nugget"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radium_ingot",
+    "count": 1
+  }
+}

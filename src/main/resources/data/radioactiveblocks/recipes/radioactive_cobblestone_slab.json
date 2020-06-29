@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["BBB"],
+  "key": {
+    "B": {
+      "item": "radioactiveblocks:radioactive_cobblestone_block"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_cobblestone_slab",
+    "count": 6
+  }
+}

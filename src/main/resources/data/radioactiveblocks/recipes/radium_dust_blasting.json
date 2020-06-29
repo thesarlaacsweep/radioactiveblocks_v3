@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": { "item": "radioactiveblocks:radium_dust" },
+  "result": { "item": "radioactiveblocks:radium_ingot" },
+  "experience": 1.8,
+  "cookingtime": 60
+}

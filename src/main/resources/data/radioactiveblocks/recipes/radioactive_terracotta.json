@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["RRR", "RIR", "TTT"],
+  "key": {
+    "I": { "tag": "radioactiveblocks:ingots" },
+    "T": {
+      "item": "minecraft:terracotta"
+    },
+    "R": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_terracotta",
+    "count": 12
+  }
+}

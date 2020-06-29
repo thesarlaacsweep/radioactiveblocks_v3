@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "technetium",
+  "ingredients": [
+    {
+      "item": "radioactiveblocks:technetium_block"
+    }
+  ],
+  "result": {
+    "item": "radioactiveblocks:technetium_ingot",
+    "count": 9
+  }
+}

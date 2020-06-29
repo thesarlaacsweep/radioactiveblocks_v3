@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["B  ", "BB ", "BBB"],
+  "key": {
+    "B": [
+      {
+        "item": "radioactiveblocks:radioactive_red_nether_brick_block"
+      }
+    ]
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_red_nether_brick_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["SS", "SS"],
+  "key": {
+    "S": {
+      "item": "radioactiveblocks:radioactive_end_stone"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_end_bricks",
+    "count": 4
+  }
+}

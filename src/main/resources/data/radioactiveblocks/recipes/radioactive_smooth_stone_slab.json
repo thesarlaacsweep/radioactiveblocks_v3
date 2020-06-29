@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["BBB"],
+  "key": {
+    "B": {
+      "item": "radioactiveblocks:radioactive_smooth_stone"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_smooth_stone_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "radioactiveblocks:americium_ore",
+    "radioactiveblocks:berkelium_ore",
+    "radioactiveblocks:neptunium_ore",
+    "radioactiveblocks:plutonium_ore",
+    "radioactiveblocks:protactinium_ore",
+    "radioactiveblocks:radium_ore",
+    "radioactiveblocks:technetium_ore",
+    "radioactiveblocks:thorium_ore",
+    "radioactiveblocks:uranium_ore"
+  ]
+}

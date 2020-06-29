@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "radioactiveblocks:radioactive_cobblestone_block"
+    }
+  ],
+  "result": {
+    "item": "radioactiveblocks:radioactive_mossy_cobblestone_block",
+    "count": 1
+  }
+}

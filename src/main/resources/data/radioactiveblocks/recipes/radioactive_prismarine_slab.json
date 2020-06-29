@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["BBB"],
+  "key": {
+    "B": {
+      "item": "radioactiveblocks:radioactive_prismarine_block"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_prismarine_slab",
+    "count": 6
+  }
+}

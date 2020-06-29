@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+      "end": "radioactiveblocks:blocks/stripped_acacia_log_top",
+      "side": "radioactiveblocks:blocks/stripped_acacia_log"
+  }
+}

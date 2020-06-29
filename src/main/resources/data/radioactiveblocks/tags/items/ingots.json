@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "radioactiveblocks:americium_ingot",
+    "radioactiveblocks:berkelium_ingot",
+    "radioactiveblocks:neptunium_ingot",
+    "radioactiveblocks:plutonium_ingot",
+    "radioactiveblocks:protactinium_ingot",
+    "radioactiveblocks:radium_ingot",
+    "radioactiveblocks:technetium_ingot",
+    "radioactiveblocks:thorium_ingot",
+    "radioactiveblocks:uranium_ingot"
+  ]
+}

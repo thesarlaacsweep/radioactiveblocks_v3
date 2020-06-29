@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "radioactive_chestplate",
+  "pattern": ["I I", "III", "III"],
+  "key": {
+    "I": {
+      "item": "radioactiveblocks:berkelium_ingot"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:berkelium_chestplate",
+    "count": 1
+  }
+}

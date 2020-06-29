@@ -1,0 +1,36 @@
+{
+  "parent": "radioactiveblocks:story/radioactive_ore",
+  "display": {
+      "title": {
+          "text": "There Goes the Environment!",
+          "bold": true
+      },
+      "description": {
+          "text": "Player has placed a radioactive landscape grass block..."
+      },
+      "icon": {
+          "item": "radioactiveblocks:radioactive_landscape_grass"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+      "isPlaced": {
+          "trigger": "minecraft:placed_block",
+          "conditions": {
+              "block": "radioactiveblocks:radioactive_landscape_grass"
+          }
+      }
+  },
+  "requirements": [
+      [
+          "isPlaced"
+      ]
+  ],
+  "rewards": {
+      "experience": 30
+  }
+}

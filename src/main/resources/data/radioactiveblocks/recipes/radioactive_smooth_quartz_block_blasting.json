@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": { "item": "radioactiveblocks:radioactive_quartz_block" },
+  "result": { "item": "radioactiveblocks:radioactive_smooth_quartz_block" },
+  "experience": 0.8,
+  "cookingtime": 60
+}

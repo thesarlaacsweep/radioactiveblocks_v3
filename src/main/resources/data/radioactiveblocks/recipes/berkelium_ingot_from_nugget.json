@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "berkelium",
+  "pattern": ["NNN", "NNN", "NNN"],
+  "key": {
+    "N": {
+      "item": "radioactiveblocks:berkelium_nugget"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:berkelium_ingot",
+    "count": 1
+  }
+}

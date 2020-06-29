@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "radioactiveblocks:radioactive_polished_andesite_block"
+  },
+  "result": "radioactiveblocks:radioactive_polished_andesite_slab",
+  "count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "radioactiveblocks:radioactive_granite_block"
+  },
+  "result": "radioactiveblocks:radioactive_polished_granite_slab",
+  "count": 2
+}

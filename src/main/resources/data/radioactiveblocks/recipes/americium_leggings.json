@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "radioactive_leggings",
+  "pattern": ["III", "I I", "I I"],
+  "key": {
+    "I": {
+      "item": "radioactiveblocks:americium_ingot"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:americium_leggings",
+    "count": 1
+  }
+}

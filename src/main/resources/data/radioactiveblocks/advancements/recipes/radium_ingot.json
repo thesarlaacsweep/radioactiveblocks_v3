@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:radium_block",
+      "radioactiveblocks:radium_ingot_from_block",
+      "radioactiveblocks:radium_ingot_from_nugget",
+      "radioactiveblocks:radium_nugget",
+      "radioactiveblocks:recipe_radium_sword",
+      "radioactiveblocks:recipe_radium_pickaxe",
+      "radioactiveblocks:recipe_radium_axe",
+      "radioactiveblocks:recipe_radium_shovel",
+      "radioactiveblocks:recipe_radium_hoe",
+      "radioactiveblocks:radium_helmet",
+      "radioactiveblocks:radium_chestplate",
+      "radioactiveblocks:radium_leggings",
+      "radioactiveblocks:radium_boots"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "radioactiveblocks:radium_ingot" }]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

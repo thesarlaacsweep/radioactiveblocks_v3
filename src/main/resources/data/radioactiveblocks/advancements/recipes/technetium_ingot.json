@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:technetium_block",
+      "radioactiveblocks:technetium_ingot_from_block",
+      "radioactiveblocks:technetium_ingot_from_nugget",
+      "radioactiveblocks:technetium_nugget",
+      "radioactiveblocks:recipe_technetium_sword",
+      "radioactiveblocks:recipe_technetium_pickaxe",
+      "radioactiveblocks:recipe_technetium_axe",
+      "radioactiveblocks:recipe_technetium_shovel",
+      "radioactiveblocks:recipe_technetium_hoe",
+      "radioactiveblocks:technetium_helmet",
+      "radioactiveblocks:technetium_chestplate",
+      "radioactiveblocks:technetium_leggings",
+      "radioactiveblocks:technetium_boots"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "radioactiveblocks:technetium_ingot" }]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

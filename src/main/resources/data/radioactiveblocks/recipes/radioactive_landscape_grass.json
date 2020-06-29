@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["RRR", "RIR", "GGG"],
+  "key": {
+    "I": { "tag": "radioactiveblocks:ingots" },
+    "G": {
+      "item": "minecraft:grass_block"
+    },
+    "R": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_landscape_grass",
+    "count": 16
+  }
+}

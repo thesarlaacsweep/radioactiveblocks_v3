@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:radioactive_white_concrete",
+      "radioactiveblocks:radioactive_orange_concrete",
+      "radioactiveblocks:radioactive_magenta_concrete",
+      "radioactiveblocks:radioactive_light_blue_concrete",
+      "radioactiveblocks:radioactive_yellow_concrete",
+      "radioactiveblocks:radioactive_lime_concrete",
+      "radioactiveblocks:radioactive_pink_concrete",
+      "radioactiveblocks:radioactive_gray_concrete",
+      "radioactiveblocks:radioactive_light_gray_concrete",
+      "radioactiveblocks:radioactive_cyan_concrete",
+      "radioactiveblocks:radioactive_purple_concrete",
+      "radioactiveblocks:radioactive_blue_concrete",
+      "radioactiveblocks:radioactive_brown_concrete",
+      "radioactiveblocks:radioactive_green_concrete",
+      "radioactiveblocks:radioactive_red_concrete",
+      "radioactiveblocks:radioactive_black_concrete"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "minecraft:gravel" }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

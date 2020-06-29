@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:radioactive_dead_brain_coral_block",
+      "radioactiveblocks:radioactive_dead_bubble_coral_block",
+      "radioactiveblocks:radioactive_dead_fire_coral_block",
+      "radioactiveblocks:radioactive_dead_horn_coral_block",
+      "radioactiveblocks:radioactive_dead_tube_coral_block"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "minecraft:gravel" }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

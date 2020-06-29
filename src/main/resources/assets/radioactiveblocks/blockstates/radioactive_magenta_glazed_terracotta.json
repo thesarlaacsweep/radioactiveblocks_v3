@@ -1,0 +1,8 @@
+{
+  "variants": {
+      "facing=south": { "model": "radioactiveblocks:block/radioactive_magenta_glazed_terracotta" },
+      "facing=west": { "model": "radioactiveblocks:block/radioactive_magenta_glazed_terracotta", "y": 90 },
+      "facing=north": { "model": "radioactiveblocks:block/radioactive_magenta_glazed_terracotta", "y": 180 },
+      "facing=east": { "model": "radioactiveblocks:block/radioactive_magenta_glazed_terracotta", "y": 270 }
+  }
+}

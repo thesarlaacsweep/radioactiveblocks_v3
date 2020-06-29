@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["B", "B"],
+  "key": {
+    "B": {
+      "item": "radioactiveblocks:radioactive_quartz_block"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_quartz_pillar",
+    "count": 2
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "type=bottom,facing=north": { "model": "radioactiveblocks:block/radioactive_prismarine_slab_bottom" },
+    "type=top,facing=north": { "model": "radioactiveblocks:block/radioactive_prismarine_slab_top" },
+    "type=double,facing=north": { "model": "radioactiveblocks:block/radioactive_prismarine_block" },
+    "type=bottom,facing=south": { "model": "radioactiveblocks:block/radioactive_prismarine_slab_bottom", "y": 180 },
+    "type=top,facing=south": { "model": "radioactiveblocks:block/radioactive_prismarine_slab_top", "y": 180 },
+    "type=double,facing=south": { "model": "radioactiveblocks:block/radioactive_prismarine_block", "y": 180 },
+    "type=bottom,facing=west": { "model": "radioactiveblocks:block/radioactive_prismarine_slab_bottom", "y": 270 },
+    "type=top,facing=west": { "model": "radioactiveblocks:block/radioactive_prismarine_slab_top", "y": 270 },
+    "type=double,facing=west": { "model": "radioactiveblocks:block/radioactive_prismarine_block", "y": 270 },
+    "type=bottom,facing=east": { "model": "radioactiveblocks:block/radioactive_prismarine_slab_bottom", "y": 90 },
+    "type=top,facing=east": { "model": "radioactiveblocks:block/radioactive_prismarine_slab_top", "y": 90 },
+    "type=double,facing=east": { "model": "radioactiveblocks:block/radioactive_prismarine_block", "y": 90 }
+  }
+}

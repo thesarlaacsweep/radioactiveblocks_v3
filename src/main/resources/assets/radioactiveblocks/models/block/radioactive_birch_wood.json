@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+      "end": "radioactiveblocks:blocks/birch_log",
+      "side": "radioactiveblocks:blocks/birch_log"
+  }
+}

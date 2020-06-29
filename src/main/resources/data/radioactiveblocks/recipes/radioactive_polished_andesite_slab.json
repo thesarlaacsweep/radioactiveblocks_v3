@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###"],
+  "key": {
+    "#": {
+      "item": "radioactiveblocks:radioactive_polished_andesite_block"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_polished_andesite_slab",
+    "count": 6
+  }
+}

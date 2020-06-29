@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "radioactiveblocks:neptunium_ingot"
+    }
+  ],
+  "result": {
+    "item": "radioactiveblocks:neptunium_nugget",
+    "count": 9
+  }
+}

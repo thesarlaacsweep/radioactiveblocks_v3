@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "radioactiveblocks:americium_block",
+      "radioactiveblocks:americium_ingot_from_block",
+      "radioactiveblocks:americium_ingot_from_nugget",
+      "radioactiveblocks:americium_nugget",
+      "radioactiveblocks:recipe_americium_sword",
+      "radioactiveblocks:recipe_americium_pickaxe",
+      "radioactiveblocks:recipe_americium_axe",
+      "radioactiveblocks:recipe_americium_shovel",
+      "radioactiveblocks:recipe_americium_hoe",
+      "radioactiveblocks:americium_helmet",
+      "radioactiveblocks:americium_chestplate",
+      "radioactiveblocks:americium_leggings",
+      "radioactiveblocks:americium_boots"
+    ]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "radioactiveblocks:americium_ingot" }]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

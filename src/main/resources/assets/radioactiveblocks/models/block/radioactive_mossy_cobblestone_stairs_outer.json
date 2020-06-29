@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+      "bottom": "radioactiveblocks:blocks/mossy_cobblestone",
+      "top": "radioactiveblocks:blocks/mossy_cobblestone",
+      "side": "radioactiveblocks:blocks/mossy_cobblestone"
+  }
+}

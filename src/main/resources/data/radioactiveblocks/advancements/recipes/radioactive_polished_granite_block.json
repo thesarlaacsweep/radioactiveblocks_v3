@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["radioactiveblocks:radioactive_polished_granite_block"]
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "radioactiveblocks:radioactive_granite_block" }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_items"]]
+}

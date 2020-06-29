@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "radioactive_wood_slabs",
+  "pattern": ["PPP"],
+  "key": {
+    "P": {
+      "item": "radioactiveblocks:radioactive_acacia_planks"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_acacia_slab",
+    "count": 6
+  }
+}

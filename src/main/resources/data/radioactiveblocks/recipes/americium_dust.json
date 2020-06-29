@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": { "item": "radioactiveblocks:americium_dust" },
+  "result": { "item": "radioactiveblocks:americium_ingot" },
+  "experience": 1.2,
+  "cookingtime": 120
+}

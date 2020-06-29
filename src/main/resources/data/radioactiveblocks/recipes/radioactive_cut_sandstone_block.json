@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["##", "##"],
+  "key": {
+    "#": {
+      "item": "radioactiveblocks:radioactive_sandstone_block"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_cut_sandstone_block",
+    "count": 4
+  }
+}

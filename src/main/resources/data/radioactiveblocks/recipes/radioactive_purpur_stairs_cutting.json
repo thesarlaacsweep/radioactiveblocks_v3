@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "radioactiveblocks:radioactive_purpur_block"
+  },
+  "result": "radioactiveblocks:radioactive_purpur_stairs",
+  "count": 1
+}

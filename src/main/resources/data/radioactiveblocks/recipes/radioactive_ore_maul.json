@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["BIB", " S ", " S "],
+  "key": {
+    "I": { "tag": "radioactiveblocks:ingots" },
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:ore_maul",
+    "count": 1
+  }
+}

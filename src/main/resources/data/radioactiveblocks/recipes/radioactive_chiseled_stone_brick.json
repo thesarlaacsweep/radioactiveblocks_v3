@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["S", "S"],
+  "key": {
+    "S": {
+      "item": "radioactiveblocks:radioactive_stone_brick_slab"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_chiseled_stone_brick_block",
+    "count": 1
+  }
+}
