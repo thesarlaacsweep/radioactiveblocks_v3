@@ -20,16 +20,32 @@ import net.minecraftforge.common.ToolType;
 import javax.annotation.Nullable;
 
 public class BlockBase extends Block {
+    public static final int HARVEST_LEVEL = 3;
+    ToolType tool;
 
     public BlockBase(Material materialIn, ToolType toolIn, SoundType soundTypeIn, int lightValueIn) {
         super(
                 Block.Properties.create(materialIn)
-                        .harvestLevel(2)
+                        .harvestLevel(HARVEST_LEVEL)
                         .hardnessAndResistance(3f, 6000f)
                         .harvestTool(toolIn)
                         .sound(soundTypeIn)
                         .lightValue(lightValueIn)
         );
+        this.tool = toolIn;
+    }
+
+    @Nullable
+    @Override
+    public ToolType getHarvestTool(BlockState state) {
+        return this.tool;
+    }
+
+    @Override
+    public void harvestBlock(World worldIn, PlayerEntity player, BlockPos pos, BlockState state, @Nullable TileEntity te, ItemStack stack) {
+        if (stack.getHarvestLevel(this.tool, player, state) >= HARVEST_LEVEL) {
+            super.harvestBlock(worldIn, player, pos, state, te, stack);
+        }
     }
 
     @Override

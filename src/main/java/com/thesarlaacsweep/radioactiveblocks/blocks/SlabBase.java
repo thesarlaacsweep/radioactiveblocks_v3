@@ -4,15 +4,18 @@ import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityClassification;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.fluid.IFluidState;
 import net.minecraft.item.BlockItemUseContext;
+import net.minecraft.item.ItemStack;
 import net.minecraft.state.BooleanProperty;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.state.EnumProperty;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.state.properties.SlabType;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;
@@ -22,6 +25,8 @@ import net.minecraftforge.common.ToolType;
 import javax.annotation.Nullable;
 
 public class SlabBase extends SlabBlock {
+    public static final int HARVEST_LEVEL = 3;
+    ToolType tool;
     public static final EnumProperty<SlabType> TYPE = BlockStateProperties.SLAB_TYPE;
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
@@ -29,13 +34,27 @@ public class SlabBase extends SlabBlock {
     public SlabBase(Material materialIn, ToolType toolIn, SoundType soundTypeIn) {
         super(
                 Block.Properties.create(materialIn)
-                        .harvestLevel(2)
+                        .harvestLevel(HARVEST_LEVEL)
                         .hardnessAndResistance(3f, 6000f)
                         .harvestTool(toolIn)
                         .sound(soundTypeIn)
                         .lightValue(15)
         );
         this.setDefaultState(this.getStateContainer().getBaseState().with(FACING, Direction.NORTH).with(TYPE, SlabType.BOTTOM).with(WATERLOGGED, false));
+        this.tool = toolIn;
+    }
+
+    @Nullable
+    @Override
+    public ToolType getHarvestTool(BlockState state) {
+        return this.tool;
+    }
+
+    @Override
+    public void harvestBlock(World worldIn, PlayerEntity player, BlockPos pos, BlockState state, @Nullable TileEntity te, ItemStack stack) {
+        if (stack.getHarvestLevel(this.tool, player, state) >= HARVEST_LEVEL) {
+            super.harvestBlock(worldIn, player, pos, state, te, stack);
+        }
     }
 
     @Override

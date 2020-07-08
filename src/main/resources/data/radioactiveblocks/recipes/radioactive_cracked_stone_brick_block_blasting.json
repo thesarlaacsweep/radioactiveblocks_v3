@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "radioactiveblocks:radioactive_stone_brick_block"
+  },
+  "result": "radioactiveblocks:radioactive_cracked_stone_brick_block",
+  "experience": 0.8,
+  "cookingtime": 60
+}

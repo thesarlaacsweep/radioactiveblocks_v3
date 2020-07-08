@@ -22,11 +22,12 @@ import net.minecraftforge.fml.common.Mod;
 public class ColorHandler {
     @SubscribeEvent
     public static void registerBlockColorHandler(final ColorHandlerEvent.Block event) {
-        RenderTypeLookup.setRenderLayer(ModBlocks.RADIOACTIVE_LANDSCAPE_GRASS.get(), RenderType.getCutoutMipped());
         BlockColors blockColors = event.getBlockColors();
         blockColors.register((state, reader, pos, tintIndex) -> {
             return reader != null && pos != null ? BiomeColors.getGrassColor(reader, pos) : GrassColors.get(0.5D, 1.0D);
         }, ModBlocks.RADIOACTIVE_LANDSCAPE_GRASS.get());
+
+        RenderTypeLookup.setRenderLayer(ModBlocks.RADIOACTIVE_LANDSCAPE_GRASS.get(), RenderType.getCutoutMipped());
     }
 
     @SubscribeEvent

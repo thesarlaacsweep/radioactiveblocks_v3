@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "radioactiveblocks:radioactive_stone_brick_block"
+  },
+  "result": "radioactiveblocks:radioactive_cracked_stone_brick_block",
+  "experience": 1.2,
+  "cookingtime": 120
+}
