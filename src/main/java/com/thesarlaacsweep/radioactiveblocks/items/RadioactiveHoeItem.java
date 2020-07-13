@@ -1,5 +1,6 @@
 package com.thesarlaacsweep.radioactiveblocks.items;
 
+import com.thesarlaacsweep.radioactiveblocks.config.ModConfig;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.HoeItem;
@@ -23,6 +24,8 @@ public class RadioactiveHoeItem extends HoeItem {
 
     @Override
     public void onCreated(ItemStack stack, World worldIn, PlayerEntity playerIn) {
-        stack.addEnchantment(Objects.requireNonNull(Enchantment.getEnchantmentByID(this.enchantmentId)), this.levelOfEnchantment);
+        if (ModConfig.COMMON_CONFIG.has_radiation_effect.get()) {
+            stack.addEnchantment(Objects.requireNonNull(Enchantment.getEnchantmentByID(this.enchantmentId)), this.levelOfEnchantment);
+        }
     }
 }

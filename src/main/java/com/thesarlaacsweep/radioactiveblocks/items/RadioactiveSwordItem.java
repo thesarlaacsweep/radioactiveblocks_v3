@@ -1,5 +1,6 @@
 package com.thesarlaacsweep.radioactiveblocks.items;
 
+import com.thesarlaacsweep.radioactiveblocks.config.ModConfig;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.LivingEntity;
@@ -27,14 +28,18 @@ public class RadioactiveSwordItem extends SwordItem {
 
     @Override
     public void onCreated(ItemStack stack, World worldIn, PlayerEntity playerIn) {
-        stack.addEnchantment(Objects.requireNonNull(Enchantment.getEnchantmentByID(this.enchantmentId)), this.levelOfEnchantment);
+        if (ModConfig.COMMON_CONFIG.has_radiation_effect.get()) {
+            stack.addEnchantment(Objects.requireNonNull(Enchantment.getEnchantmentByID(this.enchantmentId)), this.levelOfEnchantment);
+        }
     }
 
     @Override
     public boolean hitEntity(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        attacker.addPotionEffect(new EffectInstance(Effects.STRENGTH));
-        if (target.getClassification(false) == EntityClassification.MONSTER) {
-            target.setFire(4000);
+        if (ModConfig.COMMON_CONFIG.has_radiation_effect.get()) {
+            attacker.addPotionEffect(new EffectInstance(Effects.STRENGTH));
+            if (target.getClassification(false) == EntityClassification.MONSTER) {
+                target.setFire(4000);
+            }
         }
         return super.hitEntity(stack, target, attacker);
     }

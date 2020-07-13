@@ -1,5 +1,6 @@
 package com.thesarlaacsweep.radioactiveblocks;
 
+import com.thesarlaacsweep.radioactiveblocks.config.ModConfig;
 import com.thesarlaacsweep.radioactiveblocks.init.ModBlocks;
 import com.thesarlaacsweep.radioactiveblocks.init.ModItems;
 import com.thesarlaacsweep.radioactiveblocks.init.ModOres;
@@ -7,6 +8,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -21,9 +23,11 @@ public class RadioactiveBlocks
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "radioactiveblocks";
+    final ModLoadingContext modLoadingContext = ModLoadingContext.get();
     public static IEventBus MOD_EVENT_BUS;
 
     public RadioactiveBlocks() {
+        modLoadingContext.registerConfig(net.minecraftforge.fml.config.ModConfig.Type.CLIENT, ModConfig.COMMON_SPEC, "radioactiveblocks-common-config.toml");
         MOD_EVENT_BUS = FMLJavaModLoadingContext.get().getModEventBus();
         MOD_EVENT_BUS.addListener(this::setup);
         MOD_EVENT_BUS.addListener(this::doClientStuff);

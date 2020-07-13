@@ -1,3 +1,6 @@
+Build 3.1.0_1.15.2-31.2.0 - 07-13-2020
+- Adds configuration for radiation effects and radioactive ore spawning.
+
 Build 3.0.4_1.15.2-31.2.0 - 07-08-2020
 - Fixes an issue with Radioactive Blocks harvest levels.
 

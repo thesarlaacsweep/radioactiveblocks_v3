@@ -1,5 +1,6 @@
 package com.thesarlaacsweep.radioactiveblocks.blocks;
 
+import com.thesarlaacsweep.radioactiveblocks.config.ModConfig;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.SoundType;
@@ -51,7 +52,7 @@ public class StairBase extends StairsBlock {
 
     @Override
     public void onEntityWalk(World worldIn, BlockPos pos, Entity entityIn) {
-        if (entityIn.getClassification(false) == EntityClassification.MONSTER) {
+        if (ModConfig.COMMON_CONFIG.has_radiation_effect.get() && entityIn.getClassification(false) == EntityClassification.MONSTER) {
             entityIn.setFire(5000);
             entityIn.attackEntityFrom(DamageSource.ON_FIRE, 3f);
         }
